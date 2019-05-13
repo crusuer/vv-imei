@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2019.05.12 às 11:14:55 PM BRT 
+
+  -->
+  <bindings xmlns:tns="http://ws.cemiseguranca.cms.hpe.com/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="br.com.viavarejo.model"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:createBlockOrderUnboundService">
+      <class ref="br.com.viavarejo.model.CreateBlockOrderUnboundService"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:createBlockOrderUnboundServiceResponse">
+      <class ref="br.com.viavarejo.model.CreateBlockOrderUnboundServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getStatusIMEI">
+      <class ref="br.com.viavarejo.model.GetStatusIMEI"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getStatusIMEIResponse">
+      <class ref="br.com.viavarejo.model.GetStatusIMEIResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getStatusService">
+      <class ref="br.com.viavarejo.model.GetStatusService"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:getStatusServiceResponse">
+      <class ref="br.com.viavarejo.model.GetStatusServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:unlockBlockOrderService">
+      <class ref="br.com.viavarejo.model.UnlockBlockOrderService"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:unlockBlockOrderServiceResponse">
+      <class ref="br.com.viavarejo.model.UnlockBlockOrderServiceResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:imeiStatusIn">
+      <class ref="br.com.viavarejo.model.ImeiStatusIn"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:imeiStatusOut">
+      <class ref="br.com.viavarejo.model.ImeiStatusOut"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cemisspSearchInCompany">
+      <class ref="br.com.viavarejo.model.CemisspSearchInCompany"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cemisspSearchOutCompany">
+      <class ref="br.com.viavarejo.model.CemisspSearchOutCompany"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cemisspWSOut">
+      <class ref="br.com.viavarejo.model.CemisspWSOut"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:unlockWSInCompany">
+      <class ref="br.com.viavarejo.model.UnlockWSInCompany"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:blockOrderWSOut">
+      <class ref="br.com.viavarejo.model.BlockOrderWSOut"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:blockOrderUnboundWSInCompany">
+      <class ref="br.com.viavarejo.model.BlockOrderUnboundWSInCompany"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:blockOrderWSCompany">
+      <class ref="br.com.viavarejo.model.BlockOrderWSCompany"/>
+    </bindings>
+  </bindings>
+</bindings>
